@@ -113,6 +113,10 @@ Contact information to be added.
 ## Status
 
 Active research.
+
+VeilSight is evaluated by behavioral invariants, not accuracy metrics.
+
+
 Interfaces and parameters may change.
 
 Initial README describing persistence-gated glyph extraction
