@@ -29,6 +29,23 @@ Glyphs extracted at higher persistence thresholds:
 
 This behavior is consistent across multiple natural phenomena.
 
+## Persistence Monotonicity
+
+Across multiple runs, glyph count exhibits a monotonic inverse
+relationship with persistence threshold.
+
+As the persistence requirement increases:
+
+- Total glyph count decreases
+- Average structural stability increases
+- Transient artifacts are rejected
+
+This behavior is consistent across entropy sources and input sequences.
+
+The system does not converge to a fixed symbol set.
+It converges to a stability-constrained structure manifold.
+
+
 ### Reproducibility
 
 All measurements shown here were generated using
