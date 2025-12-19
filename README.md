@@ -1,3 +1,10 @@
+> This repository implements a persistence-gated visual primitive consistent with
+> the primitive grammar introduced in:
+>
+> D. Rice, *Motion-Induced Visual Primitives from Commodity Smartphone Video*,
+> Zenodo, 2025. DOI: <ZENODO DOI HERE>
+
+
 # VeilSight — Persistence-Gated Glyph Extraction from Visual Entropy
 
 VeilSight is a research prototype for detecting **persistent symbolic structures (“glyphs”)**
