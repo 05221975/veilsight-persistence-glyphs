@@ -1,0 +1,6 @@
+primitive_id,name,description,signal_domain,required_features,invariance,example_trigger,output_symbol
+ACC,Acceleration Primitive,Geometry emerging only during changes in motion (non-zero acceleration).,temporal,"optical_flow, second_derivative_motion",view-dependent,"phone tilt, sudden camera movement",ΔΔM
+OCC,Occlusion Primitive,Structures appearing when objects partially block light.,spatial-temporal,"edge_discontinuity, depth_cue",partial scale,foreground object crossing light source,⊘
+PHA,Phase-Shift Primitive,Patterns emerging during brightness oscillations or illumination phase shifts.,temporal,"intensity_derivative, frequency_response",frequency,"sun rays, flicker, rolling shutter",φ
+MSP,Multi-Scale Persistence Primitive,Same geometry appearing across multiple spatial scales.,spatial,"scale_space, persistence_score",scale,"zoom, distance change",Σ
+SYM,Symmetry-Breaking Event,Stable form collapses into another configuration.,spatial-temporal,"symmetry_metric, entropy_change",none,"rotation, viewpoint transition",↯
