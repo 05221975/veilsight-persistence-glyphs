@@ -47,6 +47,8 @@ A glyph is a visual structure that:
 
 Persistence acts as a **semantic pressure**, not a classifier.
 
+This primitive corresponds to a temporal persistence class within the broader
+motion-induced primitive grammar.
 ---
 
 ## Pipeline Overview
